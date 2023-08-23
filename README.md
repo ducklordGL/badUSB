@@ -1,12 +1,12 @@
 # badUSB 
 # creating a badUSB attack using zero dollars 
 
-badusb attack using mimikatz software 
+badusb attack using mimikatz software
 
-freevalorantskins.exe: is a script (safe.ps1) converted into an executable using PS2win 
+safe.ps1: script to bypass execution policy and start our payload in the secert folder with administrative rights 
 
-safe.ps1: is a script to bypass execution policy and start our payload in the secert folder with administrative rights 
+freevalorantskins.exe: safe.ps1 converted into an executable using PS2win 
 
-/secret/runme.ps1: help disable real time monitoring 
+/secret/runme.ps1: to disable real time monitoring 
 
-/secret/mimi.ps1: downloads mimikats.exe from github and executed the command needed to get the NTLM hash and etc. after which the mimikatz terminal output will be saved in a output file called "mimikatz_output.txt"
+/secret/mimi.ps1: downloads mimikatz.exe(can be changed to desired payload url link) from github and executes the commands needed to get the NTLM hashes of the victims device. After which the mimikatz terminal output will be saved in a output file called "mimikatz_output.txt"
